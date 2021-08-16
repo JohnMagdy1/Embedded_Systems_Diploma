@@ -12,7 +12,7 @@
 #include <stdlib.h>
 
 int main(void) {
-	char c = 'z'; //A-65 z-122
+	char c;
 
 	printf("Enter a Character : ");
 	fflush(stdin); fflush(stdout); scanf("%c", &c);
