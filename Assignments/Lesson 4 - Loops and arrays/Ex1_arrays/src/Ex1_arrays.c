@@ -15,7 +15,7 @@ void print_Mat_2x2(float matrix[2][2]){
 	for(int i=0; i<2; i++){
 
 		for(int j=0; j<2; j++){
-			printf("\t%f", matrix[i][j]);
+			printf("%f\t", matrix[i][j]);
 		}
 		printf("\n");
 	}
