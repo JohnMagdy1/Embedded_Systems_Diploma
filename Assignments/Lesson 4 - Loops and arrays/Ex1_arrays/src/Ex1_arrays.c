@@ -34,7 +34,7 @@ void Enter_Mat_2x2(float matrix[2][2], char letter){
 	}
 }
 
-float add_Mat_2x2(float matA[2][2], float matB[2][2], float sum[2][2]){
+void add_Mat_2x2(float matA[2][2], float matB[2][2], float sum[2][2]){
 
 	for(int i=0; i<2; i++){
 		for(int j=0; j<2; j++){
