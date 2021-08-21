@@ -11,21 +11,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int powerwithoutrecur(int num){
+int powerwithoutrecur(int b, int p){
 
-	int power=0;
-	for(int i=0; i<num; i++){power += num;}
+	int power=1;
+	for(int i=0; i<p; i++){power *= b;}
 	return power;
 }
-
-//2^3 = 2x2x2
 
 int power(int b, int p){
 
 	if(p == 1) return b;
 	else return b * power(b, p-1);
 }
-
 
 int main(void) {
 
@@ -36,7 +33,8 @@ int main(void) {
 	printf("Enter power number (a positive integer) : ");
 	fflush(stdin); fflush(stdout); scanf("%d", &p);
 
-	printf("%d^%d = %d", b, p, power(b,p));
+	printf("%d^%d = %d", b, p, powerwithoutrecur(b,p));
+	printf("\n%d^%d = %d", b, p, power(b,p));
 
 	return 0;
 }
