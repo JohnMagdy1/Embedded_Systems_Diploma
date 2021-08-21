@@ -28,9 +28,7 @@ int main(void) {
 	fflush(stdin); fflush(stdout); scanf("%d %d", &start, &end);
 
 	printf("Prime numbers between %d and %d are : ", start, end);
-	for(int i=start; i<end; i++){
-		if(!IsPrime(i)) continue;
-		printf("%d ", i);
-	}
+	for(int i=start; i<end; i++){ if(IsPrime(i)) printf("%d ", i); }
+
 	return 0;
 }
