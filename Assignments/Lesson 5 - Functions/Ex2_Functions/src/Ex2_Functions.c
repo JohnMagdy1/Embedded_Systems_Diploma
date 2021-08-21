@@ -11,10 +11,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 int Factorial(int num){
 
-	if (num != 1)
-	return num * Factorial(num-1);
+	if (num <= 1) return 1;
+	else return num * Factorial(num-1);
 
 }
 

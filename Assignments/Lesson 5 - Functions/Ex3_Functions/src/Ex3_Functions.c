@@ -19,7 +19,6 @@ void reverse(){
 		reverse();
 		printf("%c", c);
 	}
-	//printf("%c", c);
 }
 
 
