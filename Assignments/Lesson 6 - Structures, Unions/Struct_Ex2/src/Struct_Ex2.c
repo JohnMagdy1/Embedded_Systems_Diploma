@@ -53,6 +53,6 @@ int main(void) {
 	struct S_Distance dis1 = read_Distance("dis1");
 	struct S_Distance dis2 = read_Distance("dis2");
 	struct S_Distance sum = add_2_distances(dis1, dis2);
-	print_Distance(sum);
+	printf("\nsum of distances = %d'-%.1f""", sum.feet, sum.inch);
 	return 0;
 }
