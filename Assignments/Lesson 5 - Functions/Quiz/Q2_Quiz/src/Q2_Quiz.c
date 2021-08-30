@@ -29,7 +29,7 @@ void swap_array(int a[], int a_len, int b[], int b_len){
 
 int main(void) {
 
-	int a[] = {1,2,3}, a_size = sizeof(a)/sizeof(a[0]);
+	int a[] = {1,2,3,6,7,8,9}, a_size = sizeof(a)/sizeof(a[0]);
 	int b[] = {1,2,3,4,5}, b_size = sizeof(b)/sizeof(b[0]);
 	printf("/////Before\n"); print_array(a, a_size); print_array(b, b_size);
 
