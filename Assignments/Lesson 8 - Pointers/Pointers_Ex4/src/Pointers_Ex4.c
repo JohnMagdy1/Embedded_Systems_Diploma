@@ -29,14 +29,14 @@ int main(void) {
 	for(int i=1; i<=arr_size; i++){
 		printf("\n\nelement - %d: ", i);
 		scanf_int(p_arr++);
-		//prt_ptr((p_arr-1), "p_arr");	//Debugging message you can comment
+		prt_ptr((p_arr-1), "p_arr");	//Debugging message you can comment
 	}
 
 
 	printf("\n\nThe elements of array in reverse order are :");
 	printf("\n---------------------------------------------\n");
 	for(int i=arr_size; i != 0; i--) {
-		//prt_ptr((p_arr-1), "p_arr");		//Debugging message you can comment
+		prt_ptr((p_arr-1), "p_arr");		//Debugging message you can comment
 		printf("\nelement - %d: %d\n\n", i, *(--p_arr));
 	}
 	return 0;
