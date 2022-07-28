@@ -1,3 +1,4 @@
+make.exe --dry-run --always-make --keep-going --print-directory
 make.exe: Entering directory `d:/University/Courses/Embedded Diploma/Embedded_Systems_Diploma'
 make.exe: Leaving directory `d:/University/Courses/Embedded Diploma/Embedded_Systems_Diploma'
  
