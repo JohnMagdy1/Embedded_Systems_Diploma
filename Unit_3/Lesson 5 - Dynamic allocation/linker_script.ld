@@ -1,8 +1,8 @@
 /*linker script CortexM3 ~ John Magdy*/
 
 MEMORY{
-    flash(RX) : ORIGIN = 0X08000000, LENGTH = 128K
-    sram(RWX) : ORIGIN = 0X20000000, LENGTH = 20K
+    flash(RX) : ORIGIN = 0X00000000, LENGTH = 512M
+    sram(RWX) : ORIGIN = 0X20000000, LENGTH = 512M
 }
 SECTIONS{
 
@@ -17,6 +17,7 @@ SECTIONS{
     .data : {
         _S_data = .;
         *(.data)
+        *(.data.*)
         _E_data = .;
         . = ALIGN(4);
     }> sram AT> flash              
@@ -26,10 +27,12 @@ SECTIONS{
         *(.bss*) *(COMMON)
         _E_bss = .;
         . = ALIGN(4);
-        . = . + 0x1000;
-        _stack_top = .; 
-
     }> sram
+    . = ALIGN(4);
+    . = . + 1000;
+    _heap_end = .;
 
-    
+    . = ALIGN(4);
+    . = . + 1000;
+    _stack_top = .;
 }

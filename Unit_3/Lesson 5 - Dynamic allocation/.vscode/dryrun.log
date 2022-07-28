@@ -1,0 +1,9 @@
+make.exe --dry-run --keep-going --print-directory
+make.exe: Entering directory `d:/University/Courses/Embedded Diploma/Embedded_Systems_Diploma/Unit_3/Lesson 5 - Dynamic allocation'
+arm-none-eabi-ld.exe -T linker_script.ld  main.o startup.o    -o tiva_C_lab4.elf -Map=mapfile.map
+cp tiva_C_lab4.elf tiva_C_lab4.axf	
+arm-none-eabi-objcopy.exe -O binary tiva_C_lab4.elf tiva_C_lab4.bin
+ 
+echo "Build is done"
+make.exe: Leaving directory `d:/University/Courses/Embedded Diploma/Embedded_Systems_Diploma/Unit_3/Lesson 5 - Dynamic allocation'
+ 

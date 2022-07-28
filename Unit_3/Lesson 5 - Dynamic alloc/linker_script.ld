@@ -17,19 +17,22 @@ SECTIONS{
     .data : {
         _S_data = .;
         *(.data)
-        _E_data = .;
         . = ALIGN(4);
+        _E_data = .;
     }> sram AT> flash              
 
     .bss : {
         _S_bss = .;
-        *(.bss*) *(COMMON)
+        *(.bss*)
         _E_bss = .;
+
         . = ALIGN(4);
         . = . + 0x1000;
-        _stack_top = .; 
+        _heap_end = .;
 
+        . = ALIGN(4);
+        . = . + 0x1000;
+        _stack_top = .;
     }> sram
 
-    
 }
