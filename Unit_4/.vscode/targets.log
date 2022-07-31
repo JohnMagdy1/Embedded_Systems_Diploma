@@ -8,7 +8,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# Make data base, printed on Fri Jul 29 21:11:26 2022
+# Make data base, printed on Sun Jul 31 17:32:53 2022
 
 # Variables
 
@@ -51,7 +51,8 @@ TMP = C:\Users\johnm\AppData\Local\Temp
 # environment
 PROGRAMW6432 = C:\Program Files
 # environment
-PROGRAMDATA = C:\ProgramData
+PROGRAMDATA = 
+ C:\ProgramData
 # environment
 VSCODE_CWD = C:\Users\johnm\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -73,7 +74,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16236_FTFCAYTMQVKIQFQD
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_2380_DAVERLPZFZPFWLAF
 # environment
 COMPUTERNAME = JOHN
 # environment
@@ -103,7 +104,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
 USERDOMAIN = JOHN
 # environment
-PLATFORMIO_PATH = C:\Users\johnm\.platformio\penv\Scripts;C:\Users\johnm\.platformio\penv;C:\Users\johnm\.platformio\python3;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\mingw\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\PHP7;C:\Program Files\dotnet\;C:\ARM_TOOLCHAIN\bin;C:\Program Files\Git\cmd;C:\qemu;C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\johnm\anaconda3;C:\Users\johnm\anaconda3\Library\mingw-w64\bin;C:\Users\johnm\anaconda3\Library\usr\bin;C:\Users\johnm\anaconda3\Library\bin;C:\Users\johnm\anaconda3\Scripts;C:\Users\johnm\AppData\Local\Microsoft\WindowsApps;C:\Users\johnm\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\johnm\AppData\Local\GitHubDesktop\bin;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\mingw\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\PHP7;C:\Program Files\dotnet\;C:\ARM_TOOLCHAIN\bin;C:\Program Files\Git\cmd;C:\qemu;C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\johnm\anaconda3;C:\Users\johnm\anaconda3\Library\mingw-w64\bin;C:\Users\johnm\anaconda3\Library\usr\bin;C:\Users\johnm\anaconda3\Library\bin;C:\Users\johnm\anaconda3\Scripts;C:\Users\johnm\AppData\Local\Microsoft\WindowsApps;C:\Users\johnm\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\johnm\AppData\Local\GitHubDesktop\bin
+PLATFORMIO_PATH = C:\Users\johnm\.platformio\python3;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\mingw\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\PHP7;C:\Program Files\dotnet\;C:\ARM_TOOLCHAIN\bin;C:\Program Files\Git\cmd;C:\qemu;C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\johnm\anaconda3;C:\Users\johnm\anaconda3\Library\mingw-w64\bin;C:\Users\johnm\anaconda3\Library\usr\bin;C:\Users\johnm\anaconda3\Library\bin;C:\Users\johnm\anaconda3\Scripts;C:\Users\johnm\AppData\Local\Microsoft\WindowsApps;C:\Users\johnm\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\johnm\AppData\Local\GitHubDesktop\bin;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\mingw\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\PHP7;C:\Program Files\dotnet\;C:\ARM_TOOLCHAIN\bin;C:\Program Files\Git\cmd;C:\qemu;C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\johnm\anaconda3;C:\Users\johnm\anaconda3\Library\mingw-w64\bin;C:\Users\johnm\anaconda3\Library\usr\bin;C:\Users\johnm\anaconda3\Library\bin;C:\Users\johnm\anaconda3\Scripts;C:\Users\johnm\AppData\Local\Microsoft\WindowsApps;C:\Users\johnm\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\johnm\AppData\Local\GitHubDesktop\bin
 # default
 MAKE = $(MAKE_COMMAND)
 # default
@@ -121,10 +122,7 @@ PROGRAMFILES(X86) = C:\Program Files (x86)
 # environment
 LOCALAPPDATA = C:\Users\johnm\AppData\Local
 # environment
-PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPo 
-make.exe: *** No rule to make target `all'.  Stop.
-
-werShell\v1.0\Modules
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
 # default
 MAKE_COMMAND := make.exe
 # environment
@@ -188,7 +186,7 @@ PROCESSOR_LEVEL = 6
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_PID = 16236
+VSCODE_PID = 2380
 # environment
 USERDOMAIN_ROAMINGPROFILE = JOHN
 # variable set hash-table stats:
@@ -200,11 +198,11 @@ USERDOMAIN_ROAMINGPROFILE = JOHN
 
 # Directories
 
-# . (key d:/University/Courses/Embedded Diploma/Embedded_Systems_Diploma/Unit_4, mtime 1659119578): 6 files, no impossibilities.
+# . (key d:/University/Courses/Embedded Diploma/Embedded_Systems_Diploma/Unit_4, mtime 1659185346): 5 files, no impossibilities.
 # C:\WinAVR-20100110\bin (key C:/WinAVR-20100110/bin, mtime 1658404780): 75 files, no impossibilities.
 # C:\WinAVR-20100110\utils\bin (key C:/WinAVR-20100110/utils/bin, mtime 1658404804): 99 files, no impossibilities so far.
 
-# 180 files, no impossibilities in 3 directories.
+# 179 files, no impossibilities in 3 directories.
 
 # Implicit Rules
 
@@ -266,6 +264,8 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Fri Jul 29 21:11:26 2022
+# Finished Make data base on Sun Jul 31 17:32:53 2022
 
  
+make.exe: *** No rule to make target `all'.  Stop.
+

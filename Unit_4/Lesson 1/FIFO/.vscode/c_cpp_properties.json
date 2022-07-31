@@ -1,18 +1,17 @@
 {
   "configurations": [
     {
-      "name": "windows-clang-x86",
+      "name": "windows-gcc-x86",
       "includePath": [
         "${workspaceFolder}/**"
       ],
-      "compilerPath": "C:/mingw/bin/g++.exe",
+      "compilerPath": "C:/mingw/bin/gcc.exe",
       "cStandard": "${default}",
       "cppStandard": "${default}",
-      "intelliSenseMode": "windows-clang-x86",
+      "intelliSenseMode": "windows-gcc-x86",
       "compilerArgs": [
         ""
-      ],
-      "configurationProvider": "ms-vscode.makefile-tools"
+      ]
     }
   ],
   "version": 4

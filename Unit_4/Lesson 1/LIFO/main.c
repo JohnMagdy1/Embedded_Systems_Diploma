@@ -35,4 +35,6 @@ void main(){
             printf("LIFO is NULL \n");
     }
 
+    free(dyn_buf);
+
 }
