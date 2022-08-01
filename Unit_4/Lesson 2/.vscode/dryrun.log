@@ -1,0 +1,6 @@
+make.exe --dry-run --keep-going --print-directory
+make.exe: Entering directory `d:/University/Courses/Embedded Diploma/Embedded_Systems_Diploma/Unit_4/Lesson 2'
+gcc .\main.c .\US_Sensors.c .\DC.c .\CA.c -o main.exe
+main.exe
+make.exe: Leaving directory `d:/University/Courses/Embedded Diploma/Embedded_Systems_Diploma/Unit_4/Lesson 2'
+ 
